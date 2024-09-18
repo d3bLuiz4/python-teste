@@ -1,0 +1,7 @@
+str(input('Digite seu nome^^:'))
+sal=int(input('Digite seu salário atual^^ :'))
+aumento=int(input('Digite a porcentagem de aumento do seu salário:^ :')) 
+porcentagem=aumento*sal
+resultado=porcentagem/100
+novo_salário=sal+resultado
+print(f'Seu novo salário é:{novo_salário}')
